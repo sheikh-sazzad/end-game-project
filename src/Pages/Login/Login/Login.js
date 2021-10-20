@@ -81,7 +81,7 @@ const Login = () => {
 
             </div>
             <div className="mb-3 form-check">
-                <p>Don't have any account? Please <Link to='/register'>Register</Link></p>
+                <p>Don't have any account? Please <Link to='/register'><span className="caret-blue-700">(Register Here Click)</span></Link></p>
             </div>
 
             <button onClick={handleGoogleLogin} className="btn btn-warning">Google Sing In</button>

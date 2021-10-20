@@ -85,7 +85,7 @@ const Register = () => {
         </form>
   
         <div className="mb-3 form-check">
-          <p>Already have an account? <Link to='/login'>Log In</Link></p>
+          <p>Already have an account? <Link to='/login'>(Log In Here Click)</Link></p>
         </div>
   
   

@@ -11,8 +11,10 @@ const Footer = () => {
             <div className='footer-link'>
                 <nav>
                     <a target='_blank' href="https://www.facebook.com/murad.sheikh.313/" >Facebook</a>
-                    <a target='_blank' href="https://www.youtube.com/channel/UC_KX7kpcAs7BGjolyFiKE_A" >You Tube</a>
-                    <a target='_blank' href="https://web.programming-hero.com/" >Programming Hero</a>
+                    <a target='_blank' href="https://www.youtube.com/channel/UC_KX7kpcAs7BGjolyFiKE_A" >You-Tube</a>
+                    <a target='_blank' href="https://www.linkedin.com/feed/" >LinkedIn</a>
+                    <br></br>
+                    <small>Copyright@2021.Health Care Hospital</small>
                 </nav>
 
 
