@@ -29,12 +29,12 @@ const Booking = () => {
                 <Card.Body>
                     <Card.Title>{exactService[0]?.name}</Card.Title>
                     <Card.Text>
-                        {exactService[0]?.description.slice(0, 200)}
+                        {exactService[0]?.details}
                     </Card.Text>
-                    <Card.Title>${exactService[0]?.price}</Card.Title>
+                    <Card.Title>{exactService[0]?.price}</Card.Title>
                     <div className='details-button'>
                         <Button variant="secondary" ><Link className='go-service' to='/services'>Go Services</Link></Button>
-                        <Button variant="primary">Primary</Button>
+                        <Button variant="primary">      Primary</Button>
 
                     </div>
                 </Card.Body>

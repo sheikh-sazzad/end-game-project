@@ -15,8 +15,8 @@ const Service = ({service}) => {
         <img src={img} alt="" />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
-          <p>Details:{details}</p>
-          <h5 className="card-title">${price}</h5>
+          {/* <p>Details:{details}</p> */}
+          <h5 className="card-title">Details: {details}</h5>
         </div>
         <div>
           <Link to={`/booking/${id}`}>
