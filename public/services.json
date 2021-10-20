@@ -1,1 +1,48 @@
-[{"id":1,"name":"Vaccine","price":500,"img":"https://i.ibb.co/BLW7xtY/photo-1537977193203-d4fce971cb5e.jpg"},{"id":2,"name":"Brain checkup","price":500,"img":"https://i.ibb.co/kMKVpvp/Shot-of-a-doctor-using-a-digital-tablet-to-discuss-a-brain-scan-during-a-consultation-in-her-office.jpg"},{"id":3,"name":"Heart checkup","price":500,"img":"https://i.ibb.co/n3fpsjj/Top-view-world-heart-day-stethoscope-with-29-september-text-on-blue-paper-background-Free-copy-space.jpg"},{"id":4,"name":"Heart anatomy","price":500,"img":"https://i.ibb.co/MD8b8X6/3-D-Illustration-Concept-of-Human-Circulatory-System-Heart-Anatomy.jpg"},{"id":5,"name":"X-ray","price":500,"img":"https://i.ibb.co/g6qX3ZT/Shot-of-two-medical-practitioners-analysing-x-rays-in-a-hospital.jpg"},{"id":6,"name":"Brain checkup","price":500,"img":"https://i.ibb.co/sPfSXQf/Medicine-doctor-team-meeting-and-analysis-Diagnose-checking-brain-testing-result-with-modern-virtual.jpg"},{"id":7,"name":"Arthopedics","price":500,"img":"https://i.ibb.co/1KY5hw1/Digitally-generated-image-of-man-suffering-with-knee-pain.jpg"},{"id":8,"name":"Liver diesease","price":500,"img":"https://i.ibb.co/1KY5hw1/Digitally-generated-image-of-man-suffering-with-knee-pain.jpg"},{"id":9,"name":"Ear problem","price":500,"img":"https://i.ibb.co/2hHc25x/Closeup-of-examining-ear-with-an-otoscope.jpg"}]
+[
+    {"id":1,
+        "name":"Vaccine",
+        "price":500,
+        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
+        "img":"https://i.ibb.co/BLW7xtY/photo-1537977193203-d4fce971cb5e.jpg"},
+    
+    {"id":2,
+        "name":"Brain checkup",
+        "price":500,
+        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
+        "img":"https://i.ibb.co/kMKVpvp/Shot-of-a-doctor-using-a-digital-tablet-to-discuss-a-brain-scan-during-a-consultation-in-her-office.jpg"},
+    
+    {"id":3,
+        "name":"Heart checkup",
+        "price":500,
+        "img":"https://i.ibb.co/n3fpsjj/Top-view-world-heart-day-stethoscope-with-29-september-text-on-blue-paper-background-Free-copy-space.jpg"},
+    
+    {"id":4,
+        "name":"Heart anatomy",
+        "price":500,
+        "img":"https://i.ibb.co/MD8b8X6/3-D-Illustration-Concept-of-Human-Circulatory-System-Heart-Anatomy.jpg"},
+    
+    {"id":5,
+        "name":"X-ray",
+        "price":500,
+        "img":"https://i.ibb.co/g6qX3ZT/Shot-of-two-medical-practitioners-analysing-x-rays-in-a-hospital.jpg"},
+    
+    {"id":6,
+        "name":"Brain checkup",
+        "price":500,
+        "img":"https://i.ibb.co/sPfSXQf/Medicine-doctor-team-meeting-and-analysis-Diagnose-checking-brain-testing-result-with-modern-virtual.jpg"},
+    
+    {"id":7,
+        "name":"Arthopedics",
+        "price":500,
+        "img":"https://i.ibb.co/1KY5hw1/Digitally-generated-image-of-man-suffering-with-knee-pain.jpg"},
+    
+    {"id":8,
+        "name":"Liver diesease",
+        "price":500,
+        "img":"https://i.ibb.co/BVvRn1p/A-medicine-explaining-liver-problems-to-a-male-patient-XXL-size-image.jpg"},
+    
+    {"id":9,
+        "name":"Ear problem",
+        "price":500,
+        "img":"https://i.ibb.co/2hHc25x/Closeup-of-examining-ear-with-an-otoscope.jpg"}
+    ]
