@@ -1,55 +1,81 @@
 [
-    {"id":"1",
-        "name":"Vaccine",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/BLW7xtY/photo-1537977193203-d4fce971cb5e.jpg"},
-    
-    {"id":"2",
-        "name":"Brain checkup",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/kMKVpvp/Shot-of-a-doctor-using-a-digital-tablet-to-discuss-a-brain-scan-during-a-consultation-in-her-office.jpg"},
-    
-    {"id":"3",
-        "name":"Heart checkup",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/n3fpsjj/Top-view-world-heart-day-stethoscope-with-29-september-text-on-blue-paper-background-Free-copy-space.jpg"},
-    
-    {"id":"4",
-        "name":"Heart anatomy",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/MD8b8X6/3-D-Illustration-Concept-of-Human-Circulatory-System-Heart-Anatomy.jpg"},
-    
-    {"id":"5",
-        "name":"X-ray",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/g6qX3ZT/Shot-of-two-medical-practitioners-analysing-x-rays-in-a-hospital.jpg"},
-    
-    {"id":"6",
-        "name":"Brain checkup",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/sPfSXQf/Medicine-doctor-team-meeting-and-analysis-Diagnose-checking-brain-testing-result-with-modern-virtual.jpg"},
-    
-    {"id":"7",
-        "name":"Arthopedics",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/1KY5hw1/Digitally-generated-image-of-man-suffering-with-knee-pain.jpg"},
-    
-    {"id":"8",
-        "name":"Liver diesease",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/BVvRn1p/A-medicine-explaining-liver-problems-to-a-male-patient-XXL-size-image.jpg"},
+    {
+        "id":1,
+        "name":"Coxs Bazar",
+        "price":10000,
+        "location":"Chittagong",
+        "duration":"3 days",
+        "description":"It is famous mostly for its long natural sandy beach. It is located 150 km (93 mi) south of the city of Chittagong. Cox's Bazar is also known by the name Panowa ...",
+        "img":"https://i.ibb.co/D9kSYPN/place-4.jpg"
+    },
 
-    {"id":"9",
-        "name":"Ear problem",
-        "price":500,
-        "details":"A disease is a particular abnormal condition, a disorder of a structure or function, that affects part or all of an organism. It is often construed as a medical condition associated with specific symptoms and signs.",
-        "img":"https://i.ibb.co/2hHc25x/Closeup-of-examining-ear-with-an-otoscope.jpg"}
-    ]
+    {
+        "id":2,
+        "name":"Kuakata",
+        "price":8000,
+        "location":"Barisal",
+        "duration":"3 days",
+        "description":"Kuakata is a town in southern Bangladesh known for its panoramic sea beach. Kuakata beach is a sandy expanse 18 kilometres long and 3 kilometres wide. From the beach one can have an unobstructed view of both sunrise and sunset over the Bay of Bengal.",
+        "img":"https://i.ibb.co/qxFqpK5/place-8.jpg"
+    },
+    
+    {
+        "id":3,
+        "name":"Bikrampur",
+        "price":1000,
+        "location":"Munshigonj",
+        "duration":"5 days",
+        "description":"Munshiganj, also historically known as Bikrampur, is a district in central Bangladesh. It is a part of the Dhaka Division and borders Dhaka District.",
+        "img":"https://i.ibb.co/2YTNcV9/Astonishing-drone-photo-of-resort-town-landscape-Larnaca-seashore-aerial-view.jpg"
+    },
+    
+    {
+        "id":4,
+        "name":"Bichana-kandi",
+        "price":1000,
+        "location":"Sylhet",
+        "duration":"3 days",
+        "description":"Bichnakandi, also known as Bisnakandi, is a village in Rustompur Union, Gowainghat Upazila of Bangladesh's Sylhet District. In recent years, there has been an influx of tourists to its river.",
+        "img":"https://i.ibb.co/5KnQKmQ/place-7.jpg"
+    },
+    
+    {
+        "id":5,
+        "name":"Bandorban",
+        "price":1000,
+        "location":"Bandorban",
+        "duration":"3 days",
+        "description":"Bandarban, is a district in South-Eastern Bangladesh, and a part of the Chittagong Division. It is one of the three hill districts of Bangladesh and a part of the Chittagong Hill Tracts, the others being Rangamati District and Khagrachhari District. Bandarban city is the headquarters of the Bandarban district.",
+        "img":"https://i.ibb.co/Zdt0RQP/place-6.jpg"
+    },
+    
+    {
+        "id":6,
+        "name":"Darzelling",
+        "price":20000,
+        "location":"India",
+        "duration":"10 days",
+        "description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite, it remains the terminus of the narrow-gauge Darjeeling Himalayan Railway, or “Toy Train,” completed in 1881. It's famed for the distinctive black tea grown on plantations that dot its surrounding slopes. Its backdrop is Mt. Kanchenjunga, among the world’s highest peaks.",
+        "img":"https://i.ibb.co/xMpfXRn/place-2.jpg"
+    },
+    
+    {
+        "id":7,
+        "name":"Europe",
+        "price":1000,
+        "location":"Norway",
+        "duration":"30 days",
+        "description":"Europe is a landmass located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere..",
+        "img":"https://i.ibb.co/b1G6YQJ/place-1.jpg"
+    },
+    
+    {
+        "id":8,
+        "name":"Honk kong",
+        "price":1000,
+        "location":"Hong kong",
+        "duration":"30 days",
+        "description":"Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is a city and special administrative region of China on the eastern Pearl River Delta in the South.",
+        "img":"https://i.ibb.co/R4QhvYh/place-3.jpg"
+    }
+]

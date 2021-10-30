@@ -1,9 +1,9 @@
 import React from 'react';
 import './Banner.css';
 
-import banner1 from '../../../Images/Banner/banner-01.jpg';
-import banner2 from '../../../Images/Banner/banner-02.jpg';
-import banner3 from '../../../Images/Banner/banner-03.jpg';
+import banner1 from '../../../Images/Banner/banner-1.jpg';
+import banner2 from '../../../Images/Banner/banner-2.jpg';
+import banner3 from '../../../Images/Banner/banner-3.jpg';
 import { Carousel } from 'react-bootstrap';
 
 const Banner = () => {

@@ -3,7 +3,7 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import './Header.css';
-import logo from '../../../Images/logo-hospital.jpg';
+import logo from '../../../Images/tour-logo.jpg';
 
 const Header = () => {
     const { logOut, user, name } = useAuth();
@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand className="nav-logo" href="#home"><img src={logo} alt="" /><span>Health Care Hospital</span></Navbar.Brand>
+          <Navbar.Brand className="nav-logo" href="#home"><img src={logo} alt="" /><span>Explore World Beuty</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto text-center">

@@ -15,7 +15,7 @@ const Doctors = () => {
 
     return (
         <div className='doctors-container'>
-            <h1>Our Doctors</h1>
+            <h1>Our Services</h1>
             <div className='row row-cols-1 row-cols-md-3 g-4'>
 
                 {
