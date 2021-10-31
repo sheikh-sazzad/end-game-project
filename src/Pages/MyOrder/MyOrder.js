@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
-import useAuth from '../../Hoocks/useAuth';
-import done2 from '../../Images/done2.gif';
+import useAuth from '../../Hooks/useAuth';
+// import done2 from '../../Images/done2.gif';
 
 const MyOrder = () => {
     const { user } = useAuth();
@@ -78,7 +78,7 @@ const MyOrder = () => {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body className='mx-auto'>
-                    <img src={done2} alt="" srcset="" />
+                    <img src="" alt="" srcset="" />
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={props.onHide}>Done</Button>

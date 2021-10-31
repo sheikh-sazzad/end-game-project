@@ -46,7 +46,7 @@ const AddService = () => {
             setError(`you can't submit an empty from`)
         }
         else {
-            axios.post('https://limitless-escarpment-09124.herokuapp.com//deliveryItems', data)
+            axios.post('http://localhost:5000/services', data)
                 .then(res => {
                     // console.log(res);
                 })

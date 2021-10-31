@@ -4,7 +4,7 @@ const useServices = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('https://limitless-escarpment-09124.herokuapp.com/deliveryItems')
+        fetch('http://localhost:5000/services')
             .then((res) => res.json())
             .then((data) => setServices(data));
     }, []);

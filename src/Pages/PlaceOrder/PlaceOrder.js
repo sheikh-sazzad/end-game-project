@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { Button, Card, Form } from 'react-bootstrap';
 import { useHistory, useLocation, useParams } from 'react-router';
 import { Link } from 'react-router-dom';
-import useAuth from '../../Hoocks/useAuth';
+import useAuth from '../../Hooks/useAuth';
 import './PlaceOrder.css';
 
 const PlaceOrder = () => {
@@ -27,7 +27,7 @@ const PlaceOrder = () => {
 
 
     useEffect(() => {
-        fetch('https://limitless-escarpment-09124.herokuapp.com/deliveryItems')
+        fetch('http://localhost:5000/AllOrder')
             .then(res => res.json())
             .then(data => setService(data));
 
@@ -55,7 +55,7 @@ const PlaceOrder = () => {
             setError(`salar po sata number de`);
         }
         else {
-            axios.post('https://limitless-escarpment-09124.herokuapp.com/AllOrder', orderData)
+            axios.post('http://localhost:5000/AllOrder', orderData)
                 .then(res => {
                     // console.log(res);
                 })

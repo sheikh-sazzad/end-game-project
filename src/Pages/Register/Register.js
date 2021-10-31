@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
-import useAuth from '../../Hoocks/useAuth';
+import useAuth from '../../Hooks/useAuth';
 
 const Register = () => {
     const location = useLocation();

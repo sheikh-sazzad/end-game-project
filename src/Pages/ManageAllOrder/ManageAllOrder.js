@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Button, Modal, Spinner } from 'react-bootstrap';
 import './ManageAllOrder.css';
-import doneImg from '../../Images/done.gif';
-import useOrders from '../../Hoocks/useOrders';
+// import doneImg from '../../Images/done.gif';
+import useOrders from '../../Hooks/useOrders';
 
 const ManageAllOrder = () => {
     const [orders, setOrders] = useOrders();
@@ -94,10 +94,10 @@ const ManageAllOrder = () => {
                 <Modal.Header closeButton>
                     <Modal.Title id="contained-modal-title-vcenter">
                         Deleted Successfully
-                    </Modal.Title>
+                    </Modal.Title>Pmy
                 </Modal.Header>
                 <Modal.Body className='mx-auto'>
-                    <img src={doneImg} className='w-50' alt="" srcset="" />
+                    <img src="" className='w-50' alt="" srcset="" />
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={props.onHide}>Done</Button>

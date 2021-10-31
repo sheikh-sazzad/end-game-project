@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
-import useAuth from '../../../Hoocks/useAuth';
+import useAuth from '../../../Hooks/useAuth';
 
 const Login = () => {
     const location = useLocation();

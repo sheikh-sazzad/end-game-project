@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
-import useAuth from '../../../Hoocks/useAuth';
+import useAuth from '../../../Hooks/useAuth';
 
 const Header = () => {
     const { logOut, user, name } = useAuth();
@@ -10,7 +10,7 @@ const Header = () => {
         <>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand className="nav-logo" href="#home"><img src='....' alt="" /><span>Dip Eye Care</span></Navbar.Brand>
+                    <Navbar.Brand className="nav-logo" href="#home"><img src='....' alt="" /><span>JhotPot Food</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto text-center">
