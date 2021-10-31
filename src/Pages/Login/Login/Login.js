@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-
-import { Link, useLocation, useHistory } from 'react-router-dom';
-import useAuth from '../../../Hooks/useAuth';
-
-import './Login.css';
+import React from 'react';
+import { useState } from 'react';
+import { useHistory, useLocation } from 'react-router';
+import { Link } from 'react-router-dom';
+import useAuth from '../../../Hoocks/useAuth';
 
 const Login = () => {
     const location = useLocation();
@@ -17,12 +16,16 @@ const Login = () => {
     const [email, setEmail] = useState({});
     const [password, setPassword] = useState({});
     const [message, setMessage] = useState('');
+    const [googleMessage, setGoogleMessage] = useState('');
 
     const handleGoogleLogin = () => {
 
         signInWithGoogle()
             .then(result => {
                 history.push(redirect_uri);
+            })
+            .catch((error) => {
+                setGoogleMessage(error.message);
             })
     }
 
@@ -57,6 +60,19 @@ const Login = () => {
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     return (
         <div className='container'>
 
@@ -81,13 +97,14 @@ const Login = () => {
 
             </div>
             <div className="mb-3 form-check">
-                <p>Don't have any account? Please <Link to='/register'><span className="caret-blue-700">(Register Here Click)</span></Link></p>
+                <p>Don't have any account? Please <Link to='/register'>Register</Link></p>
             </div>
 
             <button onClick={handleGoogleLogin} className="btn btn-warning">Google Sing In</button>
+
+            <p className='error-message mt-2'>{googleMessage}</p>
         </div>
     );
 };
-
 
 export default Login;

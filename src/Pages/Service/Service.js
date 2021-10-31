@@ -3,32 +3,34 @@ import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({service}) => {
-    const {details, id, name, img, price } = service;
+    const { _id, name, img, details } = service;
+
+    return (
 
 
 
-
-  return (
-
-    <div className="col service">
-      <div className="card ">
-        <img src={img} alt="" />
-        <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          {/* <p>Details:{details}</p> */}
-          <h5 className="card-title">Details: {details}</h5>
+        <div className="col service">
+            <div className="card ">
+                <img src={img} alt="" />
+                <div className="card-body">
+                    <h5 className="card-title">{name}</h5>
+                    <p className="card-title">{details.slice(0, 180)}</p>
+                </div>
+                <div>
+                    <Link to={`/placeorder/${_id}`}>
+                        <button className='btn btn-warning'>Buy Now</button>
+                    </Link>
+                </div>
+            </div>
         </div>
-        <div>
-          <Link to={`/booking/${id}`}>
-            <button className='btn btn-warning'>Book surgery</button>
-          </Link>
-        </div>
-      </div>
-    </div>
 
 
 
-  );
+
+
+
+    );
 };
+
 
 export default Service;

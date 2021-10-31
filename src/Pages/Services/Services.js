@@ -1,18 +1,17 @@
 import React from 'react';
-import useServices from '../../Hooks/useServices';
+import useServices from '../../Hoocks/useServices';
 import Service from '../Service/Service';
+import './Services.css';
 
 const Services = () => {
     const [services] = useServices();
-
-
     return (
         <div className='container services-container'>
             <h1>Our Services</h1>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
                     services.map(service => <Service
-                        key={service.id}
+                        key={service._id}
                         service={service}
                     ></Service>
                     )
@@ -22,5 +21,4 @@ const Services = () => {
         </div>
     );
 };
-
 export default Services;
