@@ -46,7 +46,7 @@ const AddService = () => {
             setError(`you can't submit an empty from`)
         }
         else {
-            axios.post('http://localhost:5000/services', data)
+            axios.post('https://spooky-spider-27611.herokuapp.com/services', data)
                 .then(res => {
                     // console.log(res);
                 })

@@ -17,7 +17,7 @@ const MyOrder = () => {
     };
 
     useEffect(() => {
-        fetch('https://limitless-escarpment-09124.herokuapp.com/AllOrder')
+        fetch('https://spooky-spider-27611.herokuapp.com//AllOrder')
             .then((res) => res.json())
             .then((data) => setMyOrder(data));
     }, []);
@@ -29,7 +29,7 @@ const MyOrder = () => {
 
     //Delete User 
     const handleDeleteOrder = id => {
-        const url = `https://limitless-escarpment-09124.herokuapp.com/AllOrder/${orderId}`;
+        const url = `https://spooky-spider-27611.herokuapp.com/${orderId}`;
         fetch(url, {
             method: 'DELETE'
         })

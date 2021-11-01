@@ -11,6 +11,7 @@ import PlaceOrder from './Pages/PlaceOrder/PlaceOrder';
 import MyOrder from './Pages/MyOrder/MyOrder';
 import ManageAllOrder from './Pages/ManageAllOrder/ManageAllOrder';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
           <PrivateRoute path='/addservice'>
             <AddService></AddService>
           </PrivateRoute>
+          <Route path='*'>
+            <NotFound></NotFound>
+          </Route>
         </Switch>
       </BrowserRouter>
     </AuthProvider>

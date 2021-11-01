@@ -35,7 +35,7 @@ const ManageAllOrder = () => {
 
     //Delete User 
     const handleDeleteOrder = () => {
-        const url = `https://limitless-escarpment-09124.herokuapp.com/AllOrder/${orderId}`;
+        const url = `https://spooky-spider-27611.herokuapp.com/AllOrder/${orderId}`;
         fetch(url, {
             method: 'DELETE'
         })
@@ -51,7 +51,7 @@ const ManageAllOrder = () => {
     }
 
     const handleUpdateStatus = (id) => {
-        const url = `https://limitless-escarpment-09124.herokuapp.com/AllOrder/${id}`
+        const url = `https://spooky-spider-27611.herokuapp.com/AllOrder/${id}`
         fetch(url, {
             method: 'PUT',
             headers: {

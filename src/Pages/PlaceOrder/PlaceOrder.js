@@ -27,7 +27,7 @@ const PlaceOrder = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/AllOrder')
+        fetch('https://spooky-spider-27611.herokuapp.com/AllOrder')
             .then(res => res.json())
             .then(data => setService(data));
 
@@ -55,7 +55,7 @@ const PlaceOrder = () => {
             setError(`salar po sata number de`);
         }
         else {
-            axios.post('http://localhost:5000/AllOrder', orderData)
+            axios.post('https://spooky-spider-27611.herokuapp.com/AllOrder', orderData)
                 .then(res => {
                     // console.log(res);
                 })
