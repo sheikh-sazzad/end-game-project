@@ -17,7 +17,7 @@ const MyOrder = () => {
     };
 
     useEffect(() => {
-        fetch('https://spooky-spider-27611.herokuapp.com//AllOrder')
+        fetch('https://spooky-spider-27611.herokuapp.com/AllOrder')
             .then((res) => res.json())
             .then((data) => setMyOrder(data));
     }, []);
@@ -106,14 +106,14 @@ const MyOrder = () => {
 
                         <div class="card-body">
                             <h5 class="card-title">{orderList.name}</h5>
-                            <p class="card-text">{orderList.details.slice(0, 120)}</p>
+                            <p class="card-text">{orderList.details}</p>
                             <h6>{orderList.userEmail}</h6>
                             <h6>{orderList.number}</h6>
 
 
 
 
-                            <Button variant="danger" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => { handleShow(orderList._id) }}>Delete Order
+                            <Button variant="danger" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => { handleShow() }}>Delete Order
                             </Button>
 
 
@@ -134,7 +134,7 @@ const MyOrder = () => {
                                     <Button variant="secondary" onClick={() => handleClose()} >
                                         Close
                                     </Button>
-                                    <Button variant="danger" onClick={() => { handleDeleteOrder(); }} >
+                                    <Button variant="danger" onClick={() => { handleDeleteOrder(orderList._id); }} >
                                         Delete
                                     </Button>
                                 </Modal.Footer>
