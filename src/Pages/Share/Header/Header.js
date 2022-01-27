@@ -10,12 +10,12 @@ const Header = () => {
         <>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand className="nav-logo" href="#home"><img src='....' alt="" /><span>Plan A Beautiful Tour</span></Navbar.Brand>
+                    <Navbar.Brand className="nav-logo" href="#home"><img src='....' alt="" /><span>Plan a Beautiful Tour</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto text-center">
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                            <Nav.Link as={Link} to="/services">Services</Nav.Link>
+                            <Nav.Link as={Link} to="/services">Products</Nav.Link>
 
                             {
                                 user?.email &&
@@ -29,7 +29,7 @@ const Header = () => {
 
                             {
                                 user?.email &&
-                                <Nav.Link as={Link} to="/addservice" >Add A New Service</Nav.Link>
+                                <Nav.Link as={Link} to="/addservice" >Add A New Product</Nav.Link>
                             }
 
                             {
